@@ -72,10 +72,15 @@ Candlestick charts help traders visualize:
 ```text
 project/
 │
-├── candlestick.py
-├── credentials.py
 ├── autoLogin.py
+├── configuration.py
+├── credentials.py
+├── historicalData.py
+├── main.py
+├── newCandlestick.py
+├── plot.py
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
@@ -123,7 +128,7 @@ python autoLogin.py
 Run:
 
 ```bash
-python candlestick.py
+python main.py
 ```
 
 The application will:
