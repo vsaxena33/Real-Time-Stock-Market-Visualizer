@@ -74,6 +74,6 @@ project/
 │
 ├── candlestick.py
 ├── credentials.py
-├── access_token.txt
+├── autoLogin.py
 ├── requirements.txt
 └── README.md
