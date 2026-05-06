@@ -25,7 +25,7 @@ def fetch_historical_data(fyers: fyersModel.FyersModel) -> pd.DataFrame:
 
     nifty_data = {
         "symbol": config.symbol,
-        "resolution": "1",  # "1" means 1-minute intervals
+        "resolution": config.resolution,
         "date_format": "0",
         "range_from": int(previous_time),
         "range_to": int(current_time),
